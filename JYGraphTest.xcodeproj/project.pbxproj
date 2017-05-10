@@ -15,6 +15,7 @@
 		5D5822D31D61CCF6000C3558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5822D11D61CCF6000C3558 /* LaunchScreen.storyboard */; };
 		5D5822DE1D61CCF6000C3558 /* JYGraphTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5822DD1D61CCF6000C3558 /* JYGraphTestTests.m */; };
 		5D5822E91D61CCF6000C3558 /* JYGraphTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5822E81D61CCF6000C3558 /* JYGraphTestUITests.m */; };
+		5D5822F81D61CD18000C3558 /* JYGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5822F71D61CD18000C3558 /* JYGraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5D5822E41D61CCF6000C3558 /* JYGraphTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYGraphTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5822E81D61CCF6000C3558 /* JYGraphTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYGraphTestUITests.m; sourceTree = "<group>"; };
 		5D5822EA1D61CCF6000C3558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5822F61D61CD18000C3558 /* JYGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGraphView.h; sourceTree = "<group>"; };
+		5D5822F71D61CD18000C3558 /* JYGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		5D5822C21D61CCF6000C3558 /* JYGraphTest */ = {
 			isa = PBXGroup;
 			children = (
+				5D5822F61D61CD18000C3558 /* JYGraphView.h */,
+				5D5822F71D61CD18000C3558 /* JYGraphView.m */,
 				5D5822C61D61CCF6000C3558 /* AppDelegate.h */,
 				5D5822C71D61CCF6000C3558 /* AppDelegate.m */,
 				5D5822C91D61CCF6000C3558 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5822F81D61CD18000C3558 /* JYGraphView.m in Sources */,
 				5D5822CB1D61CCF6000C3558 /* ViewController.m in Sources */,
 				5D5822C81D61CCF6000C3558 /* AppDelegate.m in Sources */,
 				5D5822C51D61CCF6000C3558 /* main.m in Sources */,
